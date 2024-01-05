@@ -3,7 +3,7 @@ console.log("****Ejercicio1******")
 /*
 // Actividad_1
 
-console.log("Actividad1")
+console.log("Actividad1 - Homero")
 
 let nombre = "Homero";
 let apellido = "Simpson";
@@ -16,7 +16,7 @@ console.log(nombre + " " + apellido + " tiene " + edad + " años de edad")
 /*
 // Actividad_2
 
-console.log("Actividad2")
+console.log("Actividad2 - Ciudades")
 
 const ciudad1 = "Santiago";
 const ciudad2 = "Valparaiso";
@@ -29,7 +29,7 @@ const ciudad5 = "Coquimbo";
 
 // Actividad_3
 
-console.log("Actividad3");
+console.log("Actividad3 - Carnet");
 
 let ciudad = 'BUIN';
 let documento = "Licencia de conducir";
@@ -69,7 +69,7 @@ console.log("----------------------------------------------------\n"
 
 // Actividad_4
 
-console.log("Actividad4");
+console.log("Actividad4 - Registro de Personas");
 
 integrante1 = prompt('Familia Simpson \n' + "Ingrese el nombre del Padre: ");
 integrante2 = prompt('Familia Simpson \n' + "Ingrese el nombre de la Madre: ");
@@ -90,7 +90,7 @@ alert("La Familia simpson esta compuesta por: \n\n"
 
 // Actividad_5
 
-console.log("Actividad5");
+console.log("Actividad5 - Descuentos");
 
 monto = prompt('Calculadora de descuento %' + '\nIngrese el monto $ a calcular: ');
 
