@@ -1,6 +1,7 @@
 console.log("Ejercicio 9 - Objetos");
 
 
+/* 
 // 1 - Calificaciones de alumnos
 
 function Calificaciones(nombre, ingles, programacion, HTM){
@@ -19,5 +20,11 @@ function Calificaciones(nombre, ingles, programacion, HTM){
 const alumno1 = new Calificaciones("juan", 6.5, 6.8, 5);
 const alumno2 = new Calificaciones("Diego", 4.5, 6, 3,2);
 alumno1.promedio();
-alumno2.promedio();
+alumno2.promedio(); 
+*/
+
+
+
+
+
 
