@@ -122,7 +122,7 @@ const ConversorTemperatura = {
 
 const arrayConversorUnidades = [ConversorLongitud, ConversorMasa, ConversorTiempo, ConversorTemperatura];
 
-// Inicia Civlo Programa
+// Inicia Ciclo Programa
 
 let ciclo = 1;
 
@@ -179,16 +179,11 @@ while(ciclo == 1 ){
         ciclo = prompt("ingresa --> (1) para CONTINUAR / (0) para SALIR");   
     }
     else if (seleccion == 5){
-
         alert("Adios, Muchas Gracias!!!")
         ciclo = 0;
     }
-
     else{
-
         alert("Opcion Invalida")
         ciclo = prompt("ingresa --> (1) para CONTINUAR / (0) para SALIR");   
     }
-
-
 };
