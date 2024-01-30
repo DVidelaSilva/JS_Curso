@@ -78,3 +78,7 @@ localStorage.setItem('persona', JSON.stringify(persona) );
 const datos = JSON.parse( localStorage.getItem( 'persona') );
 
 console.log(datos);  */
+
+
+
+
