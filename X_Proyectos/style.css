@@ -18,6 +18,7 @@ header {
     align-items: center;
     position: sticky;
     top: -1rem;
+    z-index: 3;
 }
 
 main {
@@ -29,7 +30,7 @@ main {
 
 
 footer {
-    height: 5vh;
+    height: 5vh; 
     display: flex;
     align-items: center;
     justify-content: end;
