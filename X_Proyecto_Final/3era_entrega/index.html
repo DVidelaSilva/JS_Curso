@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css" />
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script  src="data.js" defer></script>
+		<script  src="index.js" defer></script>
+        <script  src="calculos.js" defer></script>
+
+		<title>DAVS - Conversor de Unidades</title>
+	</head>
+	<body>
+        <h2>Conversor de Unidades</h2>
+        <br>
+        <br>
+		<div class="contenedor">          
+			<form id="conversorUnidades" action="" method="">
+                <div>
+                    <button id="btnLongitud" name="botonSelector" value="seleccionLongitud">Longitud</button>
+                    <button id="btnMasa" name="botonSelector" value="seleccionMasa">Masa</button>
+                </div>
+                <p name="msg" id="msg"></p>
+				<input type="text" name="inputValor" id="inputValor" placeholder="Valor a convertir" />
+                <select name="menuUnidades" id="menuUnidades"></select>
+				<button id="btnCalcular">Calcular</button>
+                <div id = "resultado" class="card">
+                    <div class="card-body">
+                      Resultado
+                    </div>
+                  </div>
+
+			</form>
+		</div>
+	</body>
+</html>

@@ -65,7 +65,7 @@ formulario.onsubmit = (e) => {
 
 
 
-/* formulario.onsubmit = (e) => {
+formulario.onsubmit = (e) => {
     e.preventDefault();
     const inputs = e.target.children;
     estudiantes.push(new Estudiante({ nombre: inputs[0].value, edad: inputs[1].value, curso: inputs[2].value }));
@@ -92,13 +92,13 @@ function mostrarEstudiantes(estudiantes) {
 }
 const salida = document.createElement("div");
 document.body.appendChild(formulario);
-document.body.appendChild(salida); */
+document.body.appendChild(salida);
 
 
 
 
 
-formulario.onsubmit = (e) => {
+/* formulario.onsubmit = (e) => {
     e.preventDefault();
     const inputs = e.target.children;
     estudiantes.push(new Estudiante({ nombre: inputs[0].value, edad: inputs[1].value, curso: inputs[2].value }));
@@ -129,3 +129,4 @@ function mostrarEstudiantes(estudiantes) {
 const salida = document.createElement("div");
 document.body.appendChild(formulario);
 document.body.appendChild(salida);
+ */
