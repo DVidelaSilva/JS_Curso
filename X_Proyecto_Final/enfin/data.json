@@ -1,0 +1,23 @@
+{
+    "books": [
+        { "id": 1, "name": "Misery", "autor": "Stephen King", "img": "images/misery_SK.jpeg", "Editorial":"Debolsillo", "price": 20000, "id_Autor": 1 },
+        { "id": 2, "name": "Carrie", "autor": "Stephen King", "img": "images/carrie_SK.jpeg", "Editorial":"Debolsillo", "price": 20000, "id_Autor": 1 },
+        { "id": 3, "name": "La Cupula", "autor": "Stephen King", "img": "images/lacupula_SK.jpeg", "Editorial":"Debolsillo", "price": 20000, "id_Autor": 1 },
+        { "id": 4, "name": "La LLamada de Cthulhu", "autor": "H.P. Lovecraft", "img": "images/cthulhu_HPL.jpg", "Editorial":"Debolsillo", "price": 20000, "id_Autor": 2 },
+        { "id": 5, "name": "En Las Montañas de la Locura", "autor": "H.P. Lovecraft", "img": "images/enlasmontañas_HPL.jpg", "Editorial":"Debolsillo", "price": 20000, "id_Autor": 2 },
+        { "id": 6, "name": "El Necronomicron", "autor": "H.P. Lovecraft", "img": "images/necronomicon_HPL.jpeg", "Editorial":"Debolsillo", "price": 20000, "id_Autor": 2 },
+        { "id": 7, "name": "El Cuervo", "autor": "Edgar Allan Poe", "img": "images/elcuervo_AP.png", "Editorial":"Debolsillo", "price": 20000, "id_Autor": 3 },
+        { "id": 8, "name": "La Caida de la Casa Usher", "autor": "Edgar Allan Poe", "img": "images/casausher_AP.jpg", "Editorial":"Debolsillo", "price": 20000, "id_Autor": 3 },
+        { "id": 9, "name": "Cuentos Completos", "autor": "Edgar Allan Poe", "img": "images/cuentoscompletos_AP.jpg", "Editorial":"Debolsillo", "price": 20000, "id_Autor": 3 },
+        { "id": 10, "name": "Frankenstein", "autor": "Mary Shelley", "img": "images/frankenstein_CT.jpeg", "Editorial":"Debolsillo", "price": 20000, "id_Autor": 4 },
+        { "id": 11, "name": "Dracula", "autor": "Stoker", "img": "images/dracula_CT.jpg", "Editorial":"Debolsillo", "price": 20000, "id_Autor": 4 },
+        { "id": 12, "name": "La Casa en el Confin de la Tierra", "autor": "Hope", "img": "images/confintierra_CT.jpg", "Editorial":"Debolsillo", "price": 20000, "id_Autor": 4 }
+    ],
+    "autor": [
+        { "id_Autor": 0, "name": "Todos"},
+        { "id_Autor": 1, "name": "Stephen King"},
+        { "id_Autor": 2, "name": "H.P. Lovecraft"},
+        { "id_Autor": 3, "name": "Edgar Allan Poe"},
+        { "id_Autor": 4, "name": "Cuentos Terror"}
+    ]
+}
